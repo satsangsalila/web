@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167610407-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-167610407-1');
+		</script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="Tooplate">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+      <title>Satsangsalila</title>
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Additional CSS Files -->
+      <link rel="stylesheet" href="assets/css/tooplate-main.css">
+	  <link rel="stylesheet" href="assets/css/style.css">
+	 
+   </head>
+   <body>
+      <nav>
+         <ul class="nav-menu">
+            <li><a href="#content1" class="active"><img src="assets/images/icon-1.png" alt=""> <em>Home</em></a></li>
+            <li><a href="#content2"><img src="assets/images/icon-3.png" alt=""> <em>Library</em></a></li>
+            <li><a href="#content3"><img src="assets/images/icon-5.png" alt=""> <em>Gallery</em></a></li>
+            <li><a href="#content4"><img src="assets/images/icon-4.png" alt=""> <em>News</em></a></li>
+         </ul>
+      </nav>
+      <div class="main">
+      <div class="page-content display-block text-center" id="content1">
+         <img src="./assets/images/full-bg-01.jpg"/>
+      </div>
+      <div class="page-content display-none" id="content2">
+         
+			<ul class="main-tabs">
+				<li> <a href="#satsang-pradip-table" class="active first">SATSANG PRADEEP </a></li>
+				<li> <a href="#books-table">BOOKS </a></li>
+			</ul>
+			
+			<div id="DrpDwn">
+					Year:<select id="DropDown_Year"><option>Year</option></select>					      
+			</div>
+               <table class="table table-bordered table-striped mt50 display-table" id="satsang-pradip-table">
+                  <thead>
+                     <tr>
+                        <th colspan="4">SATSANG PRADEEP</script></th>
+                     </tr>
+                     <th scope="col">Sr.</th>
+                     <th scope="col">Month</th>
+                     <th scope="col">Download Link</th>
+				  </thead>
+                  <tbody id="satsang-pradip-list">                     
+                  </tbody>
+			  </table>
+			  <table class="table table-bordered table-striped mt50 display-none" id="books-table">
+                  <thead>
+                     <tr>
+                        <th colspan="4">BOOK LIST</th>
+                     </tr>
+                     <th scope="col">Sr.</th>
+                     <th scope="col">Book Name</th>
+                     <th scope="col">Download Link</th>
+                     </tr>
+                  </thead>
+                  <tbody id="book-list">
+                     
+                  </tbody>
+               </table>
+            </div>
+        
+ 
+      <div class="page-content display-none" id="content3">
+         
+              Coming Soon...
+           
+      </div>
+      <div class="page-content display-none" id="content4">
+    
+       
+				 <table class="table table-bordered table-striped">
+                  <thead>
+                     <tr >
+                        <th colspan="3">News</th>
+                     </tr>
+                     <th scope="col">SR</th>
+                     <th scope="col">DATE</th>
+                     <th scope="col">DOWNLOAD</th>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <th scope="row">1</th>
+                        <td>10-Feb-2020</td>
+                        <td><a href="./upload/news/news1.mp4">Download</a></td>
+                     </tr>
+                  </tbody>
+               </table>
+			
+	  </div>
+	  </div>
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Additional Scripts -->
+     
+	  <script src="assets/js/data.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+             // navigation click actions 
+             $('.scroll-link').on('click', function(event){
+                 event.preventDefault();
+                 var sectionID = $(this).attr("data-id");
+                 scrollToID('#' + sectionID, 750);
+             });
+             // scroll to top action
+             $('.scroll-top').on('click', function(event) {
+                 event.preventDefault();
+                 $('html, body').animate({scrollTop:0}, 'slow');         
+             });
+             // mobile nav toggle
+             $('#nav-toggle').on('click', function (event) {
+                 event.preventDefault();
+                 $('#main-nav').toggleClass("open");
+             });
+         });
+		 
+		 $(".nav-menu a").click(function() {
+		  $('.page-content').removeClass('display-block').addClass('display-none');
+          // Switch the class on the new active div to show it
+          var selectorForActiveDemo = $(this).attr('href');
+		  $(this).parent('li').siblings().find('a').removeClass('active');
+		  $(this).addClass('active');
+          $(selectorForActiveDemo).removeClass('display-none').addClass('display-block');
+		});
+		
+		$(".main-tabs a").click(function() {
+		  $("#content2").find('.table').removeClass('display-table').addClass('display-none');
+		  $(this).parent('li').siblings().find('a').removeClass('active');
+		  $(this).addClass('active');
+		  if($(this).hasClass('first')){
+				$('#DrpDwn').show();
+		  }
+		  else{
+				$('#DrpDwn').hide();
+		  }
+		  
+          // Switch the class on the new active div to show it
+          var selectorForActiveDemo = $(this).attr('href');
+          $(selectorForActiveDemo).removeClass('display-none').addClass('display-table');		  
+		});
+		
+         // scroll function
+         function scrollToID(id, speed){
+             var offSet = 0;
+             var targetOffset = $(id).offset().top - offSet;
+             var mainNav = $('#main-nav');
+             $('html,body').animate({scrollTop:targetOffset}, speed);
+             if (mainNav.hasClass("open")) {
+                 mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+                 mainNav.removeClass("open");
+             }
+         }
+         if (typeof console === "undefined") {
+             console = {
+                 log: function() { }
+             };
+         }
+      </script>
+   </body>
+</html>
