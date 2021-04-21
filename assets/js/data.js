@@ -161,42 +161,48 @@ jQuery(document).ready(function($) {
 		 var bookObj=[
 			{
 				id : "1",
+				bookName : "Nimit Matra - 1",
+				part:"1",
+				downliadLink : "./assets/pdf/Nimitmatra-Part-I.pdf"
+			},
+			 {
+				id : "2",
 				bookName : "Nimit Matra - 3",
 				part:"3",
 				downliadLink : "./assets/pdf/Nimitmatra-Part-III.pdf"
 			},
 				{
-				id : "2",
+				id : "3",
 				bookName : "Nimit Matra - 4",
 				part:"4",
 				downliadLink : "./assets/pdf/Nimitmatra-Part-IV.pdf"
 			},
 				{
-				id : "3",
+				id : "4",
 				bookName : "Amrut Varsha - 1",
 				part:"1",
 				downliadLink : "./assets/pdf/AmrutVarshaPart-I.pdf"
 			},
 			{
-				id : "4",
+				id : "5",
 				bookName : "Amrut Varsha - 2",
 				part:"2",
 				downliadLink : "./assets/pdf/AmrutVarshaPart-II.pdf"
 			},
 			{
-				id : "5",
+				id : "6",
 				bookName : "Astak Kirtan",
 				part:"",
 				downliadLink : "./assets/pdf/AstakKirtan.pdf"
 			},
 			{
-				id : "6",
+				id : "7",
 				bookName : "Satsang Sudha",
 				part:"",
 				downliadLink : "./upload/pdf/2020/april/Satsang Sudha.pdf"
 			},
 			{
-				id : "7",
+				id : "8",
 				bookName : "Smruti Ank",
 				part:"",
 				downliadLink : "./assets/pdf/SATSANG PRADEEP.pdf"
