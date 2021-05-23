@@ -70,19 +70,19 @@ jQuery(document).ready(function($) {
 				{
 				id : "12",
 				month : "January",
-				downliadLink : "./upload/pdf/2020/January-SATSANG-Pradeep-2020.pdf",
+				downliadLink : "./pdf/2020/January-SATSANG-Pradeep-2020.pdf",
 				year:2020
 			},
 			{
 				id : "13",
 				month : "February",
-				downliadLink : "./assets/pdf/FEBRUARY SATSANG PRADIP 2020.pdf",
+				downliadLink : "./pdf/2020/FEBRUARY SATSANG PRADIP 2020.pdf",
 				year:2020
 			},
 			{
 				id : "14",
 				month : "March",
-				downliadLink : "./upload/pdf/2020/march/MARCH-2020-SATSANG-PRADEEP.pdf",
+				downliadLink : "./pdf/2020/march/MARCH-2020-SATSANG-PRADEEP.pdf",
 				year:2020
 			},
 			{
@@ -100,67 +100,73 @@ jQuery(document).ready(function($) {
 			{
 				id : "17",
 				month : "June",
-				downliadLink : "./upload/pdf/2020/JUNE-SATSANG-PRADEEP-2020.pdf",
+				downliadLink : "./pdf/2020/JUNE-SATSANG-PRADEEP-2020.pdf",
 				year:2020
 			},
 			{
 				id : "18",
 				month : "July",
-				downliadLink : "./upload/pdf/2020/July-SATSANG-Pradeep-2020.pdf",
+				downliadLink : "./pdf/2020/July-SATSANG-Pradeep-2020.pdf",
 				year:2020
 			},
 			{
 				id : "19",
 				month : "August",
-				downliadLink : "./upload/pdf/2020/August-SATSANG-Pradeep-2020.pdf",
+				downliadLink : "./pdf/2020/August-SATSANG-Pradeep-2020.pdf",
 				year:2020
 			},
 			{
 				id : "20",
 				month : "September",
-				downliadLink : "./upload/pdf/2020/September-SATSANG-PRADEEP-2020.pdf",
+				downliadLink : "./pdf/2020/September-SATSANG-PRADEEP-2020.pdf",
 				year:2020
 			},
 			{
 				id : "21",
 				month : "October",
-				downliadLink : "./upload/pdf/2020/OCTOBER-SATSANG-PRADEEP-2020.pdf",
+				downliadLink : "./pdf/2020/OCTOBER-SATSANG-PRADEEP-2020.pdf",
 				year:2020
 			},
 			{
 				id : "22",
 				month : "November",
-				downliadLink : "./upload/pdf/2020/November-Satsang-Pradeep-2020.pdf",
+				downliadLink : "./pdf/2020/November-Satsang-Pradeep-2020.pdf",
 				year:2020
 			},
 			 {
 				id : "23",
 				month : "December",
-				downliadLink : "./upload/pdf/2020/December-Satsang-Pradeep-2020.pdf",
+				downliadLink : "./pdf/2020/December-Satsang-Pradeep-2020.pdf",
 				year:2020
 			},
 			 {
 				id : "24",
 				month : "January",
-				downliadLink : "./upload/pdf/2021/January-Satsang-Pradeep-2021.pdf",
+				downliadLink : "./pdf/2021/January-Satsang-Pradeep-2021.pdf",
 				year:2021
 			},
 			 {
 				id : "25",
 				month : "February",
-				downliadLink : "./upload/pdf/2021/February-Satsang-Pradeep-2021.pdf",
+				downliadLink : "./pdf/2021/February-Satsang-Pradeep-2021.pdf",
 				year:2021
 			},
 			 {
 				id : "26",
 				month : "March",
-				downliadLink : "./upload/pdf/2021/March-Satsang-Pradeep-2021.pdf",
+				downliadLink : "./pdf/2021/March-Satsang-Pradeep-2021.pdf",
 				year:2021
 			},
 			  {
 				id : "27",
 				month : "April",
-				downliadLink : "./upload/pdf/2021/April-Satsang-Pradeep-2021.pdf",
+				downliadLink : "./pdf/2021/April-Satsang-Pradeep-2021.pdf",
+				year:2021
+			},
+			 {
+				id : "28",
+				month : "May",
+				downliadLink : "./pdf/2021/May-Satsang-Pradeep-2021.pdf",
 				year:2021
 			}
 		];
