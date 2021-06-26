@@ -168,6 +168,12 @@ jQuery(document).ready(function($) {
 				month : "May",
 				downliadLink : "./pdf/2021/May-Satsang-Pradeep-2021.pdf",
 				year:2021
+			},
+			  {
+				id : "29",
+				month : "June",
+				downliadLink : "./pdf/2021/June-Satsang-Pradeep-2021.pdf",
+				year:2021
 			}
 		];
 		 var bookObj=[
