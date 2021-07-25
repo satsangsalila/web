@@ -174,6 +174,12 @@ jQuery(document).ready(function($) {
 				month : "June",
 				downliadLink : "./pdf/2021/June-Satsang-Pradeep-2021.pdf",
 				year:2021
+			},
+			 {
+				id : "30",
+				month : "July",
+				downliadLink : "./pdf/2021/July-Satsang-Pradeep-2021.pdf",
+				year:2021
 			}
 		];
 		 var bookObj=[
@@ -213,14 +219,14 @@ jQuery(document).ready(function($) {
 				part:"",
 				downliadLink : "./assets/pdf/AstakKirtan.pdf"
 			},
+			//{
+			//	id : "7",
+			//	bookName : "Satsang Sudha",
+			//	part:"",
+			//	downliadLink : "./assets/pdf/SatsangSudha.pdf"
+			//},
 			{
 				id : "7",
-				bookName : "Satsang Sudha",
-				part:"",
-				downliadLink : "./upload/pdf/2020/april/Satsang Sudha.pdf"
-			},
-			{
-				id : "8",
 				bookName : "Smruti Ank",
 				part:"",
 				downliadLink : "./assets/pdf/SATSANG PRADEEP.pdf"
