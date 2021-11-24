@@ -180,7 +180,31 @@ jQuery(document).ready(function($) {
 				month : "July",
 				downliadLink : "./pdf/2021/July-Satsang-Pradeep-2021.pdf",
 				year:2021
-			}
+			},
+			 {
+				id : "31",
+				month : "August",
+				downliadLink : "./pdf/2021/August-Satsang-Pradeep-2021.pdf",
+				year:2021
+			},
+			 {
+				id : "32",
+				month : "September",
+				downliadLink : "./pdf/2021/September-Satsang-Pradeep-2021.pdf",
+				year:2021
+			},
+			 {
+				id : "33",
+				month : "October",
+				downliadLink : "./pdf/2021/October-Satsang-Pradeep-2021.pdf",
+				year:2021
+			},
+			 {
+				id : "34",
+				month : "November",
+				downliadLink : "./pdf/2021/November-Satsang-Pradeep-2021.pdf",
+				year:2021
+			},
 		];
 		 var bookObj=[
 			{
