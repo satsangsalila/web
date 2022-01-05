@@ -205,6 +205,12 @@ jQuery(document).ready(function($) {
 				downliadLink : "./pdf/2021/November-Satsang-Pradeep-2021.pdf",
 				year:2021
 			},
+			 {
+				id : "35",
+				month : "December",
+				downliadLink : "./pdf/2021/December-Satsang-Pradeep-2021.pdf",
+				year:2021
+			},
 		];
 		 var bookObj=[
 			{
