@@ -216,6 +216,12 @@ jQuery(document).ready(function($) {
 				month : "January",
 				downliadLink : "./pdf/2022/January-Satsang-Pradeep-2022.pdf",
 				year:2022
+			},
+			 {
+				id : "37",
+				month : "January",
+				downliadLink : "./pdf/2022/February-Satsang-Pradeep-2022.pdf",
+				year:2022
 			}
 		];
 		 var bookObj=[
