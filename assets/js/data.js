@@ -219,7 +219,7 @@ jQuery(document).ready(function($) {
 			},
 			 {
 				id : "37",
-				month : "January",
+				month : "February",
 				downliadLink : "./pdf/2022/February-Satsang-Pradeep-2022.pdf",
 				year:2022
 			}
